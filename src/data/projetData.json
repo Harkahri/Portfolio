@@ -1,0 +1,51 @@
+[
+  {
+    "id": "booki",
+    "name": "Booki.fr",
+    "image": ["booki.png"],
+    "description": "Booki.fr est un projet fictif conçu dans le cadre de ma formationchez OpenClassrooms. C'est une plateforme de location de vacancesqui vise à faciliter la recherche et la réservation d'hébergements pour les voyageurs. Le site offre une interface conviviale, des descriptions détaillées, des photos attrayantes et des fonctionnalités de filtrage avancées pour aider les utilisateurs à trouver l'endroit idéal pour leurs escapades.",
+    "probleme": "Je n'ai pas rencontré de problème particulier.",
+    "logiciels": ["Figma", "Visual Studio Code"],
+    "skills": ["Figma", "Github", "JavaScript", "CSS"],
+    "tags": [
+      "Plateforme de réservation",
+      "Location de vacances",
+      "Interface conviviale",
+      "Filtrage avancé",
+      "Voyageurs"
+    ]
+  },
+
+  {
+    "id": "lunirah",
+    "name": "Lunirah.fr",
+    "image": ["lunirah.png"],
+    "description": " Lunirah.fr est un portfolio dédié à une graphiste talentueuse. Conçu avec passion et créativité, ce site dynamique allie l'esthétique visuelle et la technologie moderne. Grâce à l'utilisation stratégique d'une base de données MongoDB, le contenu est organisé de manière fluide, offrant une expérience utilisateur intuitive. Développé en utilisant React, reflétant ainsi le travail artistique de la graphiste.",
+    "probleme": "Je n'ai pas rencontré de problème particulier.",
+    "logiciels": ["Figma", "Visual Studio Code"],
+    "skills": ["Figma", "MongoDB", "React", "SEO"],
+    "tags": [
+      "Site portfolio",
+      "Graphiste",
+      "Design créatif",
+      "Base de données MongoDB",
+      "Expérience utilisateur intuitive"
+    ]
+  },
+  {
+    "id": "sophie",
+    "name": "Sophie-bluel.fr",
+    "image": ["sophie-bluel.png"],
+    "description": "Sophie-Bluel.fr est un projet fictif conçu au sein de ma formation chez OpenClassrooms. Il s'agit d'un site portfolio dédié à une architecte d'intérieur. Le site met en avant les compétences et le travail créatif de Sophie Bluel à travers une présentation soignée de ses réalisations dans le domaine de l'aménagement intérieur. Grâce à une conception visuelle élégante et une mise en page intuitive, le site offre aux visiteurs une expérience immersive pour explorer les projets réalisés par l'architecte.",
+    "probleme": "Je n'ai pas rencontré de problème particulier.",
+    "logiciels": ["Figma", "Visual Studio Code"],
+    "skills": ["Gestion BDD", "Github", "SEO", "Modale"],
+    "tags": [
+      "Site portfolio",
+      "Architecte d'intérieur",
+      "Aménagement intérieur",
+      "Conception visuelle élégante",
+      "Projets de design"
+    ]
+  }
+]

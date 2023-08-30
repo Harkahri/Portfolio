@@ -1,0 +1,119 @@
+.soft-skills-container h2 {
+  font-family: $font-5;
+  font-weight: 400;
+  font-size: 5rem;
+}
+
+// CARROUSEL
+
+/* Conteneur du carrousel */
+
+.slick-slider {
+  display: flex;
+  align-items: center;
+}
+.slick-slider img {
+  max-height: 750px;
+  max-width: 750px;
+}
+
+.skill-item {
+  height: 750px;
+}
+
+.skill-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Éléments individuels du carrousel */
+
+.soft-skills-container-photos button {
+  max-width: 50px;
+  border: none;
+}
+.slick-center {
+  flex: 0 0 100%; /* La slide du milieu prend 100% de la largeur */
+  transform: scale(1.2); /* Agrandir la slide du milieu */
+}
+.slick-slide {
+  flex: 0 0 calc(33.33% - 10px); /* Répartir les slides sur 3 colonnes avec espacement */
+  margin: 0 5px;
+  transition: transform 0.3s ease;
+}
+/* Styles pour les flèches de navigation */
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: "";
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  color: black;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+  left: -25px;
+}
+
+.slick-next {
+  right: -25px;
+}
+
+/* Styles pour les points indicateurs */
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: transparent;
+  outline: none;
+}
+
+@media (max-width: 964px) {
+  .slick-slider img,
+  .skill-item {
+    max-width: 300px;
+    max-height: 300px;
+    height: 300px;
+  }
+}

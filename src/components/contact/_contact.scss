@@ -1,0 +1,74 @@
+/* Styles généraux */
+
+.form-row {
+  display: flex;
+
+  width: 100%;
+}
+.form-column {
+  display: flex;
+  flex-direction: column;
+}
+.form-column-half {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.form-left,
+.form-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+#formulaire {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+#message {
+  width: 100%;
+  height: 147px;
+}
+
+.contact-title h2 {
+  font-family: "Sonsie One";
+  font-weight: 400;
+  font-size: 5rem;
+}
+
+/* Styles pour les champs de saisie */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+
+  padding: 10px;
+
+  border-radius: 4px;
+  margin-bottom: 10px;
+
+  box-sizing: border-box;
+}
+
+/* Media Query pour les petits écrans */
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+  #formulaire {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
