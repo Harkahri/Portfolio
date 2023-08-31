@@ -38,8 +38,8 @@ En plus de mes compétences techniques, je mets en avant mes compétences person
 
 ## Capture d'Écran
 
-![Capture d'écran](screenshots/screenshot.png)
-
+![Capture d'écran](screenshots/screenshot1.png)
+![Capture d'écran](screenshots/screenshot2.png)
 ---
 
 Ce portfolio est le résultat de mon engagement envers l'apprentissage et le développement continu. J'espère qu'il reflète mon dévouement envers l'excellence technique et mon enthousiasme pour la création. Je suis ouvert à toute opportunité de collaboration et de développement professionnel.
