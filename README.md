@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Portfolio - Best Place Studio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue dans le README de mon portfolio en ligne, accessible à l'adresse "mon-portfolio.bestplacestudio.fr". Ce site est conçu pour présenter mon parcours, mes projets et mes compétences en tant que développeur. J'ai créé ce portfolio en utilisant React et SASS pour mettre en valeur mon travail et mes aspirations professionnelles.
 
-## Available Scripts
+## Aperçu
 
-In the project directory, you can run:
+Le portfolio "Best Place Studio" est une vitrine numérique de mon parcours en tant que développeur. Vous y trouverez des informations sur mes projets passés, mes compétences techniques et mes compétences personnelles. J'ai choisi de développer ce site pour partager mon travail avec le monde, tout en mettant en évidence ma passion pour la création et la technologie.
 
-### `npm start`
+## Projets
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Le portfolio présente une sélection de projets que j'ai réalisés au cours de ma formation en développement. Chacun de ces projets reflète mon apprentissage et ma progression en tant que développeur. Vous pourrez y trouver des détails sur les objectifs, les technologies utilisées et les résultats obtenus pour chaque projet.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Compétences Techniques
 
-### `npm test`
+Je suis compétent dans un certain nombre de technologies et de langages de programmation, notamment :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- HTML5, CSS3, JavaScript
+- React.js pour la création d'interfaces utilisateur interactives
+- Utilisation de SASS pour des styles CSS avancés
+- Gestion de versions avec Git et GitHub
+- Conception réactive pour des sites adaptés à tous les appareils
 
-### `npm run build`
+## Compétences Personnelles
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+En plus de mes compétences techniques, je mets en avant mes compétences personnelles et soft skills :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Collaboration efficace au sein d'équipes multidisciplinaires
+- Capacité à communiquer des concepts techniques de manière claire et accessible
+- Résolution de problèmes et débogage
+- Apprentissage rapide et désir constant d'acquérir de nouvelles compétences
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instructions d'Installation
 
-### `npm run eject`
+1. Clonez ce dépôt sur votre machine locale.
+2. Naviguez vers le dossier du projet.
+3. Exécutez `npm install` pour installer les dépendances.
+4. Utilisez `npm start` pour lancer l'application en mode de développement.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Capture d'Écran
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Capture d'écran](screenshots/screenshot.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ce portfolio est le résultat de mon engagement envers l'apprentissage et le développement continu. J'espère qu'il reflète mon dévouement envers l'excellence technique et mon enthousiasme pour la création. Je suis ouvert à toute opportunité de collaboration et de développement professionnel.
 
-## Learn More
+Pour toute question ou opportunité de collaboration, n'hésitez pas à me contacter.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Développeur et Concepteur:** Lucas O
+**Site Web:** [portfolio.bestplacestudio.fr](https://portfolio.bestplacestudio.fr)
+**Date:** Août 2023
