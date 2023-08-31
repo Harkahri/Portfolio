@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    $conn = new mysqli("bestplxharkahri.mysql.db", "bestplxharkahri", "Test1234", "bestplxharkahri");
+
 
     if ($conn->connect_error) {
         die("La connexion à la base de données a échoué : " . $conn->connect_error);
