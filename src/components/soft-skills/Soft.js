@@ -3,10 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// import Left from "../../images/left.png";
-// import Mid from "../../images/mid.png";
-// import Right from "../../images/pro1.webp";
-
 import Pro1 from "../../images/pro1.webp";
 import Pro2 from "../../images/pro2.webp";
 import Pro3 from "../../images/pro3.webp";
@@ -23,13 +19,12 @@ const Soft = () => {
     infinite: true,
     speed: 500,
 
-    centerMode: true,
     variableWidth: true,
   };
 
   return (
     <div className="soft-skills-container" id="softSkills-section">
-      <h2>Soft skills</h2>
+      <h2>SOFT SKILLS</h2>
       <div className="soft-skills-container-photos">
         <Slider {...settings}>
           <div className="skill-item">
@@ -59,15 +54,6 @@ const Soft = () => {
           <div className="skill-item">
             <img src={Pro9} alt="" />
           </div>
-          {/* <div className="skill-item">
-            <img src={Left} alt="" />
-          </div>
-          <div className="skill-item">
-            <img src={Mid} alt="" />
-          </div>
-          <div className="skill-item">
-            <img src={Right} alt="" />
-          </div> */}
         </Slider>
       </div>
     </div>

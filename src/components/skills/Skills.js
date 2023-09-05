@@ -23,7 +23,7 @@ const Skills = ({ skillsData }) => {
       animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
-      <h2>Skills</h2>
+      <h2>SKILLS</h2>
       <div className="skills-list">
         {skillsData.map((skill) => (
           <div

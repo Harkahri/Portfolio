@@ -1,9 +1,3 @@
-.soft-skills-container h2 {
-  font-family: $font-5;
-  font-weight: 400;
-  font-size: 5rem;
-}
-
 // CARROUSEL
 
 /* Conteneur du carrousel */
@@ -28,16 +22,24 @@
 }
 /* Éléments individuels du carrousel */
 
+.soft-skills-container-photos {
+  max-height: 100%;
+
+  border-radius: 5px;
+}
+
 .soft-skills-container-photos button {
   max-width: 50px;
   border: none;
+  box-shadow: none;
+  height: 100%;
 }
 .slick-center {
   flex: 0 0 100%; /* La slide du milieu prend 100% de la largeur */
-  transform: scale(1.2); /* Agrandir la slide du milieu */
 }
 .slick-slide {
-  flex: 0 0 calc(33.33% - 10px); /* Répartir les slides sur 3 colonnes avec espacement */
+  flex: 0 0 calc(33.33% - 10px);
+  align-items: center;
   margin: 0 5px;
   transition: transform 0.3s ease;
 }
@@ -82,7 +84,9 @@
 /* Styles pour les points indicateurs */
 .slick-dots {
   position: absolute;
-  bottom: 20px;
+
+  bottom: 25px;
+
   list-style: none;
   padding: 0;
   display: flex;
@@ -93,6 +97,7 @@
 .slick-dots li {
   margin: 0 5px;
   display: inline-block;
+  color: aliceblue;
 }
 
 .slick-dots li button {
@@ -105,7 +110,7 @@
   border: none;
   background: transparent;
   cursor: pointer;
-  color: transparent;
+  color: aliceblue;
   outline: none;
 }
 
@@ -116,4 +121,15 @@
     max-height: 300px;
     height: 300px;
   }
+  .soft-skills-container-photos {
+    max-height: 360px;
+  }
+
+  .boutons-container {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+.slick-dots li button:before {
+  color: $orange;
 }

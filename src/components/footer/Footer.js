@@ -37,6 +37,15 @@ const Footer = () => {
           <ul>
             <li>
               <a
+                href="https://github.com/Harkahri"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://www.linkedin.com/in/lucas-ossari/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -69,9 +78,9 @@ const Footer = () => {
         <p>
           <a href="/">Mentions légales</a> -{" "}
           <a href="https://bestplacestudio.fr/">
-            Développer par Best Place Studio
-          </a>{" "}
-          - Tous droits réservés
+            Développé par Best Place Studio
+          </a>
+          - <a href="/">Tous droits réservés</a>
         </p>
       </div>
     </footer>

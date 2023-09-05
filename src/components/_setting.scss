@@ -1,16 +1,20 @@
 // FONT
-@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Philosopher&family=Sonsie+One&family=Titan+One&family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Philosopher&family=Sonsie+One&family=Syne:wght@400;700;800&family=Titan+One&family=Work+Sans&display=swap");
 
 $font-1: "Work Sans", sans-serif;
 $font-2: "ADLaM Display", sans-serif;
 $font-3: "Titan One";
 $font-4: "Philosopher";
-$font-5: "Sonsie One";
+$font-5: "Syne", sans-serif;
+$font-6: "Sonsie One";
 
 $orange: #eb5b29;
+$orange1: #eca993;
 $night: #202124;
+$night-2: #1e293b57;
+$night-3: #0f172a;
 $day: #fefcfe;
-$night-2: rgba(255, 255, 255, 0.33);
+
 $blue: #1f00db;
 
 * {
@@ -18,13 +22,13 @@ $blue: #1f00db;
 }
 
 body {
-  background-color: $night;
+  background-color: $night-3;
   color: $day;
 
   padding: 0;
   margin: 0;
 
-  font-family: $font-1;
+  font-family: $font-5;
   font-size: 1rem;
 }
 
@@ -36,6 +40,18 @@ span {
   color: $orange;
 }
 
+h1 {
+  font-weight: 400;
+  font-family: $font-3;
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-family: $font-5;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
 li {
   list-style-type: none;
 }
@@ -45,9 +61,10 @@ ul {
 }
 
 button,
-input {
+input,
+textarea {
   border-radius: 6px;
-  border: 2px solid #fff;
+  border: 2px solid $orange1;
 
   min-width: 170px;
 
@@ -55,13 +72,17 @@ input {
   flex-shrink: 0;
   background-color: #ffffff00;
 
-  color: white;
+  color: $orange1;
   font-size: 1rem;
-  font-family: $font-1;
+  font-family: $font-5;
+  font-weight: 400;
 
   &:hover {
     border: 2px solid $orange;
     color: $orange;
+    box-shadow: 0px 0px 2px rgba(235, 91, 41, 0.04),
+      0px 0px 8px rgba(235, 91, 41, 0.08), 0px 0px 17px rgba(235, 91, 41, 0.12),
+      0px 0px 30px rgba(235, 91, 41, 0.16), 0px 0px 47px rgba(235, 91, 41, 0.2);
   }
 }
 
@@ -78,9 +99,21 @@ input {
 
 @media (max-width: 964px) {
   .body {
-    flex-direction: column;
-    align-items: center;
     margin: 1rem;
     padding: 0;
+  }
+  .descr {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  button {
+    min-width: 60px;
+  }
+
+  h2 {
+    font-family: $font-5;
+    font-weight: 800;
+    font-size: 2rem;
   }
 }

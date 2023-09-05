@@ -3,8 +3,8 @@
     "id": "booki",
     "name": "Booki.fr",
     "image": ["booki.png"],
-    "description": "Booki.fr est un projet fictif conçu dans le cadre de ma formationchez OpenClassrooms. C'est une plateforme de location de vacancesqui vise à faciliter la recherche et la réservation d'hébergements pour les voyageurs. Le site offre une interface conviviale, des descriptions détaillées, des photos attrayantes et des fonctionnalités de filtrage avancées pour aider les utilisateurs à trouver l'endroit idéal pour leurs escapades.",
-    "probleme": "Je n'ai pas rencontré de problème particulier.",
+    "description": "Booki.fr est un projet fictif conçu dans le cadre de ma formation chez OpenClassrooms. C'est une plateforme de location de vacances qui vise à faciliter la recherche et la réservation d'hébergements pour les voyageurs. Le site offre une interface conviviale, des descriptions détaillées, des photos attrayantes et des fonctionnalités de filtrage avancées pour aider les utilisateurs à trouver l'endroit idéal pour leurs escapades.",
+    "probleme": "La mise en place des fonctionnalités de filtrage avancées.",
     "logiciels": ["Figma", "Visual Studio Code"],
     "skills": ["Figma", "Github", "JavaScript", "CSS"],
     "tags": [
@@ -13,7 +13,8 @@
       "Interface conviviale",
       "Filtrage avancé",
       "Voyageurs"
-    ]
+    ],
+    "git": "https://github.com/Harkahri/Projet_2"
   },
 
   {
@@ -21,7 +22,7 @@
     "name": "Lunirah.fr",
     "image": ["lunirah.png"],
     "description": " Lunirah.fr est un portfolio dédié à une graphiste talentueuse. Conçu avec passion et créativité, ce site dynamique allie l'esthétique visuelle et la technologie moderne. Grâce à l'utilisation stratégique d'une base de données MongoDB, le contenu est organisé de manière fluide, offrant une expérience utilisateur intuitive. Développé en utilisant React, reflétant ainsi le travail artistique de la graphiste.",
-    "probleme": "Je n'ai pas rencontré de problème particulier.",
+    "probleme": "Gestion de la base de données MongoDB, notamment en ce qui concerne la sécurité des données et la mise en place de requêtes efficaces pour organiser le contenu de manière fluide et intuitive pour l'utilisateur.",
     "logiciels": ["Figma", "Visual Studio Code"],
     "skills": ["Figma", "MongoDB", "React", "SEO"],
     "tags": [
@@ -46,6 +47,7 @@
       "Aménagement intérieur",
       "Conception visuelle élégante",
       "Projets de design"
-    ]
+    ],
+    "git": "https://github.com/Harkahri/Projet_1"
   }
 ]

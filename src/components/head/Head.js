@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { motion } from "framer-motion";
-import { useState } from "react";
 import { useInView } from "react-intersection-observer";
 
-import logo from "../../images/logo.png";
+import logo from "../../images/logo2.png";
 import photo from "../../images/photo.png";
 
 const Head = () => {
@@ -12,8 +11,8 @@ const Head = () => {
 
   const toggleSwitch = () => {
     setIsOn(!isOn);
-    document.body.style.backgroundColor = isOn ? "#202124" : "#fefcfe";
-    document.body.style.color = isOn ? "white" : "#202124";
+    document.body.style.backgroundColor = isOn ? "#0f172a" : "#fefcfe";
+    document.body.style.color = isOn ? "white" : "#0f172a";
   };
 
   const spring = {
@@ -23,18 +22,18 @@ const Head = () => {
   };
 
   const [logoRef, logoInView] = useInView({
-    triggerOnce: true,
-    rootMargin: "-20%",
+    triggerOnce: false,
+    rootMargin: "30% 0px",
   });
 
   const [descriptionRef, descriptionInView] = useInView({
-    triggerOnce: true,
-    rootMargin: "-20%",
+    triggerOnce: false,
+    rootMargin: "30% 0px",
   });
 
   const [photoRef, photoInView] = useInView({
-    triggerOnce: true,
-    rootMargin: "-20%",
+    triggerOnce: false,
+    rootMargin: "30% 0px",
   });
 
   const containerVariants = {
@@ -125,7 +124,7 @@ const Head = () => {
           <motion.div
             ref={photoRef}
             className="photo-content"
-            variants={itemVariants}
+            variants={photoInView}
           >
             <div className="background-photo-container">
               <motion.div className="photo">

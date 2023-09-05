@@ -2,9 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
+
 import projetsData from "../../data/projetData.json";
 
 const Project = ({ projet, index }) => {
+  const extractFirstSentence = (text) => {
+    const firstSentence = text.split(".")[3];
+    return firstSentence + "...";
+  };
   const [ref, inView] = useInView({
     triggerOnce: true,
     rootMargin: `-${10 * (index + 1)}%`,
@@ -26,6 +31,7 @@ const Project = ({ projet, index }) => {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: -10,
+      triggerOnce: true,
       opacity: 1,
     },
   };
@@ -47,8 +53,10 @@ const Project = ({ projet, index }) => {
             transition: { duration: 0.3 },
           }}
         >
-          <Link to={`/projet/${projet.id}`}>
-            <div className="image-overlay">{projet.name}</div>
+          <Link to={`/projet/${projet.id}#top`}>
+            <div className="image-overlay">
+              <p>{projet.name}</p>
+            </div>
             <img
               src={require(`../../images/${projet.image}`)}
               alt={projet.name}
@@ -57,15 +65,12 @@ const Project = ({ projet, index }) => {
         </motion.div>
         <motion.div className="description-projets" variants={itemVariants}>
           <h2>{projet.name}</h2>
-          <p>{projet.description}</p>
-        </motion.div>
-        <motion.div className="competences-container" variants={itemVariants}>
-          <h3>Compétences</h3>
-          <ul>
-            {projet.skills.map((skill) => (
-              <li key={skill}>{skill}</li>
-            ))}
-          </ul>
+          <p>{extractFirstSentence(projet.description)}</p>
+          <div>
+            <Link to={`/projet/${projet.id}`}>
+              <button>En savoir plus</button>
+            </Link>
+          </div>
         </motion.div>
       </div>
     </motion.section>
@@ -75,6 +80,7 @@ const Project = ({ projet, index }) => {
 const Projets = () => {
   return (
     <section className="projets" id="projets-section">
+      <h2>MES PROJETS</h2>
       {projetsData.map((projet, index) => (
         <Project key={projet.id} projet={projet} index={index} />
       ))}

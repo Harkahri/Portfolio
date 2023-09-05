@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import projetsData from "../data/projetData.json";
 
@@ -27,6 +27,22 @@ const Fiche = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       />
+
+      <motion.div
+        className="boutons-container"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1.2 }}
+      >
+        <Link to={`/`}>
+          <button>Accueil</button>
+        </Link>
+
+        <a href={projet.git} target="_blank">
+          <button>Voir le projet sur GitHub</button>
+        </a>
+      </motion.div>
+
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
