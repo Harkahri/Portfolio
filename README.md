@@ -40,9 +40,9 @@ En plus de mes compétences techniques, je mets en avant mes compétences person
 
 ![Capture d'écran](screenshots/screenshot1.png)
 ![Capture d'écran](screenshots/screenshot2.png)
-<<<<<<< HEAD
 
----
+
+
 
 Ce portfolio est le résultat de mon engagement envers l'apprentissage et le développement continu. J'espère qu'il reflète mon dévouement envers l'excellence technique et mon enthousiasme pour la création. Je suis ouvert à toute opportunité de collaboration et de développement professionnel.
 
@@ -55,7 +55,6 @@ Ce portfolio est le résultat de mon engagement envers l'apprentissage et le dé
 
 Pour toute question ou opportunité de collaboration, n'hésitez pas à me contacter.
 
->>>>>>> c0e49a609ffaea82039143047022ef35f8984252
 **Développeur et Concepteur:** Lucas O
 **Site Web:** [portfolio.bestplacestudio.fr](https://portfolio.bestplacestudio.fr)
 **Date:** Août 2023
